@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Bhavika's Portfolio </title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <meta name="description" content="This is Bhavika's portfolio">
+        <meta name="author" content="Bhavika">
+        <meta name="keywords" content="html, css, JavaScript, web developer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body class="bg-sky-950 text-white box-border">
+
+    <header class="flex flex-row justify-around w-full fixed z-100 bg-sky-800">
+      <div class="flex flex-row">
+        <img src="assets\initial.png" alt="initial" class="h-7 m-5 mr-0">
+        <span class="p-5 font-medium text-2xl font-sans pl-1"> Bhavika </span>
+      </div>
+
+
+        <nav class="flex flex-row justify-around p-5 gap-8">
+            <a href="#home" class="hover:bg-gray-700 h-1rem rounded p-2"> Home </a>
+            <a href="#about" class="hover:bg-gray-700 h-1rem rounded p-2"> About Me </a>
+            <a href="#projects" class="hover:bg-gray-700 h-1rem rounded p-2"> Projects </a>
+            <a href="#contact" class="hover:bg-gray-700 h-1rem rounded p-2"> Contact </a>
+            <button class="bg-blue-500 rounded-2xl px-3 py-1 hover:bg-sky-900"> Download Resume </button>
+        </nav>
+
+    </header>
+
+    <section id="home" class="flex flex-row justify-around mr-28 items-center pt-20">
+        <div class="m-28 flex flex-col gap-4">
+            <span class="text-sky-100 bg-sky-800 w-20 text-center"> BHAVIKA </span>
+            <h1 class="text-5xl font-medium"> WEB DEVELOPER  </h1>
+            <h1 class="text-5xl font-medium text-blue-500"> AND DESIGNER |  </h1>
+
+            <p class="text-sm sm:text-base max-w-md mx-auto md:mx-0"> I am a tech enthusiast and always eager for learning new things.<br> But designing and development is something that fascinates me the most. This portfolio will give you an insight into my skills. </p>
+            <button href="#contact" class="bg-blue-500 w-32 px-4 py-2 rounded-2xl hover:bg-sky-900"> Get in Touch </button>
+        </div>
+
+        <img src="assets\initial.png" alt="initial" class="rounded-full w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover">
+    </section>
+
+    <div class="bg-sky-800 flex flex-wrap items-center justify-center gap-6 px-4 py-4 w-full">
+        
+        <a target="_blank" href="xyz@gmail.com">
+            <img src="assets\gmail.png" class="h-8 sm:h-10 hover:scale-105 transition-transform duration-300">
+        </a>
+        <a target="_blank" href="#">
+            <img src="assets\linked.png" class="h-8 sm:h-10 hover:scale-105 transition-transform duration-300">
+        </a>
+        <a target="_blank" href="#">
+            <img src="assets\insta.png" class="h-8 sm:h-10 hover:scale-120 transition-transform duration-200">
+        </a>
+    </div>
+
+    <section id="about" class="flex flex-col md:flex-row justify-around px-6 py-10 gap-10">
+        <div class="md:w-1/2 w-full md:p-16 p-4 my-16">
+            <span class="bg-sky-800 text-sky-100 px-3 py-1 rounded-md text-sm text-center inline-block mb-4"> About Me </span>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-medium"> DEVELOPER   </h1>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-medium text-blue-500"> DESIGNER   </h1>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-medium"> PUBLIC SPEAKER </h1>
+            <p class="pt-4 text-sm sm:text-base"> My interests include designing and creating innovative products. I always try to work on new ideas from different arenas. In addiotion to this, I am also an enthusiastic public speaker. </p>
+        </div>
+        <div class="md:w-1/2 w-full md:p-16 p-4 mt-16">
+            <p class="text-2xl sm:text-3xl font-bold pb-4"> My Education </p>
+            <table border="1" class="table-auto w-full border border-gray-300 border-collapse">
+              <thead class="text-left bg-sky-800 hover:bg-sky-900">
+                <tr>
+                    <th class="border border-gray-300 px-4 py-2"> Qualification </th>
+                    <th class="border border-gray-300 px-4 py-2"> Percentage/ CGPA </th>
+                    <th class="border border-gray-300 px-4 py-2"> Name of the Institute </th>
+                </tr>
+              </thead>
+
+              <tbody class="text-left">
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2"> 10th </td>
+                    <td class="border border-gray-300 px-4 py-2"> 97.6% </td>
+                    <td class="border border-gray-300 px-4 py-2"> DAV School </td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2"> 12th </td>
+                    <td class="border border-gray-300 px-4 py-2"> 95% </td>
+                    <td class="border border-gray-300 px-4 py-2"> DAV School </td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2"> Btech (first year) </td>
+                    <td class="border border-gray-300 px-4 py-2"> 9.48 cgpa </td>
+                    <td class="border border-gray-300 px-4 py-2"> IGDTUW </td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <section class="flex flex-col items-center justify-center px-4 py-10">
+        <h1 class="text-5xl font-medium pb-5"> MY SKILLS </h1>
+        <div class="flex flex-row justify-center gap-8">
+            <div class="bg-gray-800 border border-gray-700 p-5 hover:bg-sky-900"> <img src="assets\html.png" class="w-16 sm:w-20 md:w-24"> </div>
+            <div class="bg-gray-800 border border-gray-700 p-5 hover:bg-sky-900"> <img src="assets\css.png" class="w-16 sm:w-20 md:w-24"> </div>
+            <div class="bg-gray-800 border border-gray-700 p-5 hover:bg-sky-900"> <img src="assets\js.png" class="w-16 sm:w-20 md:w-24 object-contain"> </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="w-[100%] bg-sky-800 justify-center">
+      <div class="pt-32 pb-10 text-left px-10 md:px-32">
+        <span class="text-sky-100 bg-sky-900 px-3 py-1 rounded inline-block text-left"> MY WORK </span>
+        <h1 class="text-3xl font-medium mt-4 text-left"> RECENT PROJECTS </h1>
+      </div>
+
+        <section class="flex flex-col md:flex-row justify-center items-center gap-8 px-4 pb-32">
+
+            <div class="bg-white rounded-lg hover:bg-gray-700">
+                <img src="assets\web1.png" alt="eco-website" class="w-64 mx-5 my-5 border border-black"/>
+                <p class="text-black px-3 py-2 pb-4 font-bold text-xl"> Eco-friendly Website </p>
+            </div>
+
+            <div class="bg-white rounded-lg hover:bg-gray-700">
+                <img src="assets\web2.png" alt="eco-website" class="w-64 mx-5 my-5 border border-black"/>
+                <p class="text-black px-3 py-2 pb-4 font-bold text-xl"> Netflix Clone </p>
+            </div>
+
+            <div class="bg-white rounded-lg hover:bg-gray-700">
+                <img src="assets\web3.png" alt="eco-website" class="w-64 mx-5 my-5 border border-black"/>
+                <p class="text-black px-3 py-2 pb-4 font-bold text-xl"> Portfolio Website </p>
+            </div>
+        </section>
+        
+
+    </section>
+
+    <section id="contact" class="my-32">
+        <h1 class="text-4xl font-medium text-left px-10 mb-4"> Get in Touch </h1>
+        <form class="px-10 flex flex-col gap-6">
+          <div>
+            <label for id="name" class="block"> Your Name </label>
+            <input type="text" id="name" name="name" placeholder="John Doe" class="border border-gray-300 w-full block">
+          </div>
+
+          <div>
+
+            <label for id="email" class="block"> Your Email </label>
+            <input type="text" id="email" name="email" placeholder="johndoe@abc.com" class="border border-gray-300 w-full block">
+          </div>
+
+          <textarea name="message" id="msg" placeholder="Write here" class="border border-gray-300"> Message </textarea>
+
+          <button class="bg-blue-500 rounded-2xl px-3 py-1 hover:bg-sky-900 w-20"> Submit </button>
+        </form>
+
+
+    </section>
+
+    <footer class="h-[20vh] bg-gray-800">
+        <p class="text-center text-lg py-10"> &copy; made by Bhavika </p>
+
+    </footer>
+
+
+
+        
+
+        
+    </body>
+</html>
+
